@@ -44,7 +44,7 @@ const UploadBook = () => {
 
     console.log(bookObj)
 
-    fetch("http://localhost:5000/upload-book", {
+    fetch("https://book-store-backened.vercel.app/upload-book", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

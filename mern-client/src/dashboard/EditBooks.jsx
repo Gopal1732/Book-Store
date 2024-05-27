@@ -47,7 +47,7 @@ const EditBooks = () => {
     };
 
     // Update the book data
-    fetch(`http://localhost:5000/book/${id}`, {
+    fetch(`https://book-store-backened.vercel.app/book/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
