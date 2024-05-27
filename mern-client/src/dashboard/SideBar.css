@@ -1,0 +1,45 @@
+.sidebar {
+    background-color: #f3f4f6;
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .logo-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .sidebar-items {
+    margin-top: 20px;
+  }
+  
+  .item-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+  }
+  
+  .item i {
+    margin-right: 10px;
+  }
+  
